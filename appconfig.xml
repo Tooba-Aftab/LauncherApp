@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfiguration>   	
+	<EnvironmentList>
+		<!-- <Environment Status="QA" SettingsFilePath="C:\Users\naveed.anjum\Documents\Environment\settings-qa.xml"/>
+		<Environment Status="UAT" SettingsFilePath="C:\Users\naveed.anjum\Documents\Environment\settings-uat.xml"/> -->
+		<!-- <Environment Status="QA" SettingsFilePath="D:\ToobaDocs\Environment"/> -->
+		<Environment Status="UAT" JsonFilePath="D:\ToobaDocs\Environment\settings-uat.xml"/>
+	</EnvironmentList>
+	<ClientList>		
+		<!-- <Client Name="Report Client 1.5.0" ExePath="C:\Users\naveed.anjum\Documents\Clients\ReportClient\ReportClient_1.5.0.exe" />
+		<Client Name="Report Client 1.4.1" ExePath="C:\Users\naveed.anjum\Documents\Clients\ReportClient\ReportClient_1.4.1.exe" /> -->
+		<Client Name="Report Client 1.5.0" ExePath="D:\Releases\ReportClient\1.5.0.0404\ReportServerHost.exe" />
+		<Client Name="Report Client 1.4.1" ExePath="C:\Users\naveed.anjum\Documents\Clients\ReportClient\ReportClient_1.4.1.exe" />
+	</ClientList>
+</AppConfiguration>
